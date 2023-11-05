@@ -1,0 +1,113 @@
+.WhoWeWorkwith{
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+span{
+  font-size: 30px;
+}
+
+.section-title{display: flex;align-items: center;gap: 10px;padding: 10px;}
+/* CustomCarousel.css */
+
+/* Style the carousel container */
+.slick-slider {
+  margin-top: 60px;
+  font-size: 30px;
+  position: relative;
+  padding: 25px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+/* Style the carousel items */
+.slick-slide {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: left;
+  border-right: 1px solid grey;
+  padding-left: 20px;
+}
+
+/* Style the carousel images (if you're using images) */
+.slick-slide img {
+  width: 300px;
+  margin-bottom: 20px;
+  /* margin: auto; */
+  height: auto;
+}
+
+/* Style the pagination dots */
+.slick-dots {
+  list-style: none;
+  display: none;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+  padding: 0;
+  display: none;
+}
+
+.slick-dots button {
+  display: none;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #3498db; /* Border color of the pagination dots */
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease-in-out; */
+}
+  
+@media screen and (max-width:770px) {
+  
+  span{
+    font-size: 20px;
+  }
+  .slick-slider {
+    font-size: 20px;
+    position: relative;
+    padding: 0px;
+    margin-left: 0px;
+    width: 100vw;
+  }
+  .slick-slide {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+    border-right: 1px solid grey;
+    padding-right: 20px;
+  }
+  .slick-slide img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (min-width: 775px) and (max-width: 1300px) {
+  .slick-slider {
+    .slick-slider {
+      font-size: 20px;
+      position: relative;
+      padding: 0px;
+      margin-left: 20px;;
+      width: 100vw;
+    }
+    .slick-slide {
+      transition: transform 0.3s ease-in-out;
+      font-size: 20px;
+      cursor: pointer;
+      text-align: left;
+      border-right: 1px solid grey;
+      padding-right: 0px;
+    }
+    .slick-slide img {
+      width: 100px;;
+      height: auto;
+    }
+  }}

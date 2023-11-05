@@ -1,0 +1,26 @@
+.main-image-container{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    padding: 40px;
+}
+.main-image{
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .main-image{
+        width: 100%;
+        height: 60vh;
+        border-radius: 20px;
+        object-fit: cover;
+        z-index: 1;
+    }
+}
