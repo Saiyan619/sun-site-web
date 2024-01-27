@@ -7,7 +7,7 @@ margin-bottom: 40px;
 }
 
 .slide-text{
-    font-size: 200px;
+    font-size: 100px;
     display: flex;
 }
 .sub-slide-contents{
@@ -16,14 +16,10 @@ margin-bottom: 40px;
     align-items: center;  
 }
 h2{
-    font-size: 200px;
-    /* display: flex;
-    gap: 50px; */
-
+    font-size: 100px;
 }
 .circle{
     background-color: orangered;
-    /* padding: 5px; */
     width: 60px;
     height: 60px;
     border-radius: 1000px;

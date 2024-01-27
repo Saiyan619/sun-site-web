@@ -16,13 +16,13 @@ ul{
 ul li{
     border: 1px solid rgb(190, 181, 181);
     border-radius: 100px;
-    padding: 25px;
-    width: 160px;
-    height: 80px;
+    padding: 20px;
+    width: 100px;
+    height: 15px;
      display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
     cursor: pointer;
 }ul li:hover{
@@ -30,9 +30,9 @@ ul li{
     background-color: black;
     color: white;
     border-radius: 100px;
-    padding: 25px;
-    width: 160px;
-    height: 80px;
+    padding: 20px;
+    width: 100px;
+    height: 15px;
      display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +45,11 @@ ul li{
 .open-nav-btn{
     font-size: 50px;
     display: none;
+    cursor: pointer;
 }.close-nav-btn{
     font-size: 50px;
     display: none;
+    cursor: pointer;
 }
 
 
@@ -138,6 +140,7 @@ ul li{
     .open-nav-btn{
         font-size: 50px;
         display: block;
+        cursor: pointer;
     }
     .close-nav-btn{
         font-size: 50px;
@@ -145,5 +148,6 @@ ul li{
         position: absolute;
         top: 15%;
         right: 8%;
+        cursor: pointer;
     }
 }

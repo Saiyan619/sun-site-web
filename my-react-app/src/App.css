@@ -8,15 +8,11 @@
   text-rendering: optimizeLegibility;
   font-family: "NeueHaasDisplay-Mediu";
   scroll-behavior: smooth;
-  
-
   /* background-color: var(--background-color); */
 }
 
 :root {
   --background-color: #efeae3; 
-  --font-family-1: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
-  --basic-big-font-size: 20px
 }
 
 
@@ -25,62 +21,3 @@
   color: black;
   overflow: hidden;
 }
-/* 
-.glow-box{
-  background-color: white;
-  padding: 40px;
-  width: 30px;
-}.glow-box:hover{
-  filter: drop-shadow(0 0 10em #646cffaa);
-  background-color: white;
-  padding: 40px;
-  width: 30px;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
-
-/* .blob {
-  width: 150px;
-  height: 150px;
-  background-color: #3498db;
-  border-radius: 50%;
-  position: relative;
-  animation: moveBlob 3s ease-in-out infinite;
-  filter: drop-shadow(0em 0em 10em #646cffaa);
-}
-
-@keyframes moveBlob {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-50px);
-  }
-} */

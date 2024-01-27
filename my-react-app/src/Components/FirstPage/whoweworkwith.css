@@ -5,18 +5,22 @@
 }
 
 span{
-  font-size: 30px;
+  font-size: 20px;
 }
 
-.section-title{display: flex;align-items: center;gap: 10px;padding: 10px;}
+.section-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;}
 /* CustomCarousel.css */
 
 /* Style the carousel container */
 .slick-slider {
   margin-top: 60px;
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
-  padding: 25px;
+  padding: 15px;
   margin-left: 20px;
   overflow: hidden;
 }
@@ -32,7 +36,7 @@ span{
 
 /* Style the carousel images (if you're using images) */
 .slick-slide img {
-  width: 300px;
+  width: 200px;
   margin-bottom: 20px;
   /* margin: auto; */
   height: auto;
@@ -57,7 +61,7 @@ span{
   display: none;
   width: 12px;
   height: 12px;
-  border: 2px solid #3498db; /* Border color of the pagination dots */
+  border: 2px solid #3498db; 
   background: transparent;
   border-radius: 50%;
   cursor: pointer;
